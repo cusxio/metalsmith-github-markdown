@@ -1,0 +1,46 @@
+{
+  "name": "metalsmith-github-markdown",
+  "version": "1.0.0",
+  "description": "Convert markdown with Github Markdown",
+  "license": "MIT",
+  "repository": "cusxio/metalsmith-github-markdown",
+  "author": {
+    "name": "Jonathan Chan",
+    "email": "cus@cusx.io",
+    "url": "https://cusx.io"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "clean": "rimraf lib src/__tests__/fixtures/build",
+    "test": "ava src/__tests__",
+    "lint": "eslint src",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run clean && npm run build && npm run lint && npm run test"
+  },
+  "keywords": [
+    "metalsmith",
+    "github",
+    "markdown",
+    "api"
+  ],
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-cusxio": "^0.5.0",
+    "eslint-plugin-import": "^2.2.0",
+    "metalsmith": "^2.3.0",
+    "rimraf": "^2.5.4"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3"
+  }
+}
