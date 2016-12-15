@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-github-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert markdown with Github Markdown",
   "license": "MIT",
   "repository": "cusxio/metalsmith-github-markdown",
