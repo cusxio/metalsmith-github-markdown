@@ -1,5 +1,7 @@
 #  metalsmith-github-markdown
 
+ [![Build Status](https://semaphoreci.com/api/v1/cusxio/metalsmith-github-markdown/branches/master/badge.svg)](https://semaphoreci.com/cusxio/metalsmith-github-markdown)
+
 > Convert markdown with Github Markdown
 
 ## Why ?
